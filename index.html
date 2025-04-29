@@ -4,17 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    
 </head>
 <body>
+    <script src="scripts.js"></script>
     <header>
-        <h1>WELCOME TO MY PORTFOLIO &#128512; &#128582; </h1>
+        <h1>WELCOME TO MY PORTFOLIO 👨🏻‍💻 📊 &#128212;  </h1>
     </header>
     <main>
         <section><a href="resume.html" target="_blank">Resume</a>
         <div>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit fugiat nam nisi repellendus ut pariatur voluptas, neque illo quasi assumenda, consequuntur autem placeat officia impedit explicabo illum odit quas perferendis.
+            <button id="alertButton">Resume- Click here to view</button>
         </div></section>
-        <section><a href="education.html">Education</a>
+        <section id="edu"><a href="education.html">Education</a>
         <div>
             <pre> 
                 •Sahyadri College of Engineering and Management, Mangaluru, Karnataka
@@ -26,36 +30,46 @@
             </pre>
         </div></section>
         <section><a href="projects.html">Projects</a>
-            <div>
-                <h1 style="color:cornflowerblue">
+            <div id="main_prj">
+            <div id="prj1">
+                <h1>
                     AI-Fashion-Design
                 </h1>
-                <h3 style="color:cornflowerblue;">Description of the Project:</h3>
-                <pre> 
+                <br>
+                <h3>Description of the Project:</h3>
+                <br>
+                <pre > 
                     • Gained hands-on experience in image processing, developing and enhancing image filters.
                     • Worked with Neural Style Transfer (NST) to apply artistic effects to images using deep learning models.
                     • Built a web-based NST application enabling users to apply artistic styles to merchandise designs.
                     • Implemented image preprocessing and model optimization to ensure high-quality style transfer outputs.
                     <b>• Tools & technologies used: Python, Flask, TensorFlow, Pillow, NumPy, Matplotlib, HTML, CSS, JavaScript </b>
                 </pre>
-                <h1 style="color:cornflowerblue">
+            </div>
+            <div id="prj2">
+                
+                <h1>
                     Churn Analysis Prediction 
                 </h1>
-                <h3 style="color:cornflowerblue;">Description of the Project:</h3>
-                <pre>
+            <br>
+                <h3>Description of the Project:</h3>
+                <br>
+                <pre >
                     • Designed and implemented an ETL process in SQL Server for data extraction, transformation, and loading.
                     • Developed a Random Forest ML model (84% accuracy) to predict customer churn.
                     • Integrated machine learning insights into Power BI dashboards to support data-driven decision-making.
                     • <b>Tools & technologies used: Power BI, SQL Server (SSMS), Python, Jupyter Notebook.</b>
                 </pre>
-                <img src="images/PowerBI dashboard.png" height="850" alt="power BI dashboard">
+                
             </div>
+        </div>
+            <img src="images/PowerBI dashboard.png" height="800" alt="power BI dashboard">
         </section>
         <section><a href="experience.html">Experience</a></section>
-        <div><h1 style="color:cornflowerblue">
+        <div id="exp1"><h1>
             Intern @ Coding key llp (11/23 to 12/23)
         </h1>
-        <h3 style="color:cornflowerblue;">Description of the Project:</h3>
+        <h3>Description of the Project:</h3>
         <pre> Gained hands-on experience in image processing, developing and enhancing image filters.
             • Worked with Neural Style Transfer (NST) to apply artistic effects to images using deep learning models.
             • Built a web-based NST application enabling users to apply artistic styles to merchandise designs.
